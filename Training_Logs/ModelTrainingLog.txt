@@ -145,3 +145,42 @@
 2020-10-15/11:35:59		Entered the save_model method of the File_Operation class
 2020-10-15/11:35:59		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
 2020-10-15/11:35:59		Successful End of Training
+2021-11-23/13:26:45		Start of Training
+2021-11-23/13:26:45		Entered the get_data method of the Data_Getter class
+2021-11-23/13:26:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2021-11-23/13:26:45		Entered the remove_columns method of the Preprocessor class
+2021-11-23/13:26:45		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-11-23/13:26:45		Entered the separate_label_feature method of the Preprocessor class
+2021-11-23/13:26:45		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-11-23/13:26:45		Entered the is_null_present method of the Preprocessor class
+2021-11-23/13:26:45		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-11-23/13:26:45		Entered the impute_missing_values method of the Preprocessor class
+2021-11-23/13:26:55		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2021-11-23/13:26:55		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2021-11-23/13:26:57		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2021-11-23/13:26:57		Entered the remove_columns method of the Preprocessor class
+2021-11-23/13:26:57		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-11-23/13:26:57		Entered the elbow_plot method of the KMeansClustering class
+2021-11-23/13:27:07		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2021-11-23/13:27:07		Entered the create_clusters method of the KMeansClustering class
+2021-11-23/13:27:07		Entered the save_model method of the File_Operation class
+2021-11-23/13:27:07		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2021-11-23/13:27:07		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2021-11-23/13:27:07		Entered the get_best_model method of the Model_Finder class
+2021-11-23/13:27:07		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2021-11-23/13:34:48		Start of Training
+2021-11-23/13:34:48		Entered the get_data method of the Data_Getter class
+2021-11-23/13:34:48		Data Load Successful.Exited the get_data method of the Data_Getter class
+2021-11-23/13:34:48		Entered the remove_columns method of the Preprocessor class
+2021-11-23/13:34:48		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-11-23/13:34:48		Entered the separate_label_feature method of the Preprocessor class
+2021-11-23/13:34:48		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-11-23/13:34:48		Entered the is_null_present method of the Preprocessor class
+2021-11-23/13:34:48		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-11-23/13:34:48		Entered the impute_missing_values method of the Preprocessor class
+2021-11-23/13:34:57		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2021-11-23/13:34:57		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2021-11-23/13:34:59		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2021-11-23/13:34:59		Entered the remove_columns method of the Preprocessor class
+2021-11-23/13:34:59		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-11-23/13:34:59		Entered the elbow_plot method of the KMeansClustering class
